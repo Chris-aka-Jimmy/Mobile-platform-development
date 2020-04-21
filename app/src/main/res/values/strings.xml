@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mobile platform development</string>
+    <string name="title_incidents">Incidents</string>
+    <string name="title_maps">Maps</string>
+    <string name="title_roadworks">Roadworks</string>
+    <string name="title_planned_roadworks">Planned Roadworks</string>
+    <string name="maps_api">AIzaSyB9YfNd3umlpj8K18lTQaRdKzsBTxfJcYM</string>
+
+</resources>

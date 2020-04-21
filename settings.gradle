@@ -1,0 +1,2 @@
+rootProject.name='Mobile platform development'
+include ':app'

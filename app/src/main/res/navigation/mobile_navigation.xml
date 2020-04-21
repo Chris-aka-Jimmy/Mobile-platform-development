@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_incidents">
+
+    <fragment
+        android:id="@+id/navigation_incidents"
+        android:name="com.example.mobileplatformdevelopment.ui.incidents.incidentsFragment"
+        android:label="@string/title_incidents"
+        tools:layout="@layout/fragment_incidents" />
+
+    <fragment
+        android:id="@+id/navigation_roadworks"
+        android:name="com.example.mobileplatformdevelopment.ui.roadworks.roadworksFragment"
+        android:label="Roadworks"
+        tools:layout="@layout/fragment_roadworks" />
+
+    <fragment
+        android:id="@+id/navigation_planned_roadworks"
+        android:name="com.example.mobileplatformdevelopment.ui.roadworks.plannedroadworksFragment"
+        android:label="Planned Roadworks"
+        tools:layout="@layout/fragment_planned_roadworks" />
+
+    <fragment
+    android:id="@+id/navigation_map"
+    android:name="com.example.mobileplatformdevelopment.ui.map.mapsFragment"
+    android:label="Maps"
+    tools:layout="@layout/fragment_map" />
+
+</navigation>
